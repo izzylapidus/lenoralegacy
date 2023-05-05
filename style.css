@@ -28,14 +28,12 @@ body {
   font-size: 1.2em;
   color: #6c757d;
 }
-
 .navbar {
   display: flex;
   justify-content: space-around;
   padding: 10px;
   background-color: #e9ecef;
 }
-
 .navbar a {
   display: inline-block;
   text-decoration: none;
@@ -121,18 +119,18 @@ body {
   height: 500px;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.5);
   max-width: 100%;
   max-height: 100%;
-  display: block; /* Ensure that it's a block-level element */
+  display: block;
 }
 
 .read-images:hover {
-  opacity: 0.8; /* Reduce opacity on hover */
+  opacity: 0.8;
 }
 
 .read-images:focus {
-  outline: none; /* Remove outline on focus */
+  outline: none;
 }
 
 /* FOOTER */
