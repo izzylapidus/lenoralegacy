@@ -116,7 +116,7 @@ body {
 }
 
 .read-images {
-  height: 500px;
+  /* height: 500px; */
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.5);
@@ -180,7 +180,7 @@ body {
     width: 100%;
   }
   .subtitle {
-    font-size: 1.5em;
+    font-size: 2.3em;
   }
   .video {
     width: 100%;
@@ -201,6 +201,7 @@ body {
     justify-content: center;
   }
   .read-box {
+    justify-content: center;
     width: 90%;
     margin-bottom: 20px;
   }
