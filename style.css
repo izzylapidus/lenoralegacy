@@ -128,7 +128,7 @@ body {
 }
 .read-text:hover {
   font-style: italic;
-  background: linear-gradient(#d2bcfb, #d2bcfb) no-repeat;
+  background: linear-gradient(#681af9, #d2bcfb) no-repeat;
   background-size: 50% 50%;
   background-position: 50% 100%;
 }
