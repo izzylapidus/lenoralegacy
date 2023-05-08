@@ -2,6 +2,7 @@
 html {
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 body {
   font-family: Arial, sans-serif;
@@ -156,14 +157,7 @@ body {
 
 
 
-
-
-
-
-
-
-
-/* RESPONSIVE DESIGN - in progress */
+/* RESPONSIVE DESIGN: MOBILE */
 @media screen and (max-width: 768px) {
   .header {
     padding: 10px;
@@ -175,13 +169,18 @@ body {
     font-size: 1em;
   }
   .navbar {
-    flex-direction: column;
-    padding: 10px 0;
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
   }
   .navbar a {
-    margin: 5px 0;
+    text-align: center;
     font-size: 1.0em;
+    /* border: 1px solid black; */
+    padding: 0 0px;
+    margin: 0 0px; /* 0 top/bottom, 0px left/right */
   }
   .statement {
     font-size: 1em;
